@@ -46,4 +46,19 @@ func main() {
 		fmt.Println("It's a weekday")
 	}
 
+	//arrays
+	var arr [5]int
+	fmt.Println(len(arr))
+	arr1 := [...]int{1, 2, 3, 4}
+	fmt.Println("Element of arr: ", arr[2])
+	fmt.Println("Element of arr1: ", arr1[3])
+
+	twoDArr := [3][3]int{
+		{1, 2, 3},
+		{4, 5, 6},
+		{7, 8, 9},
+	}
+
+	fmt.Println(twoDArr)
+
 }
